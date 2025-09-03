@@ -1,16 +1,48 @@
 # 🍴 Restaurant Menu Manager App
 
-A **Streamlit-based web app** to manage a restaurant’s menu.  
-You can view, add, remove, and update dishes with real-time statistics,  
-all inside a modern **dark-themed UI**.
+A **Streamlit-based web application** to manage a restaurant’s menu.  
+With this app, you can **view, add, remove, and update dishes** while also exploring real-time statistics — all in a stylish dark-themed interface.  
 
 ---
 
 ## 🚀 Features
-- 📋 **View Menu** – Display all dishes with type & price.  
-- ➕ **Add Dishes** – Add new dishes with category and price.  
-- ➖ **Remove Dishes** – Remove dishes from the menu.  
-- 💲 **Update Prices** – Update dish prices easily.  
-- 📊 **Dish Type Statistics** – Auto-updating bar chart of categories.  
-- 💾 **Save & Reset** – Save menu changes to `menu.json` or reset to default.  
-- 🌙 **Dark Theme** – Stylish black & gold UI with emojis.  
+- 📋 **View Menu** – Display all dishes with type & price  
+- ➕ **Add Dishes** – Add new dishes with category and price  
+- ➖ **Remove Dishes** – Remove dishes from the menu  
+- 💲 **Update Prices** – Update dish prices easily  
+- 📊 **Dish Type Statistics** – Auto-updating bar chart of categories  
+- 💾 **Save & Reset** – Save menu changes to `menu.json` or reset to default  
+- 🌙 **Dark Theme** – Sleek black & gold UI with emojis  
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/HAJIRA-NASEEM/Restaurant-Menu-Manager.git
+cd Restaurant-Menu-Manager
+
+Install dependencies:
+
+pip install streamlit pandas
+
+▶️ Usage
+
+Run the app locally:
+
+streamlit run app.py
+
+📂 Project Structure
+Restaurant-Menu-Manager/
+│-- app.py          # Main Streamlit app code
+│-- menu.json       # Default menu data file
+│-- README.md       # Project documentation
+
+🤝 Contributing
+
+Contributions are welcome! Please fork this repository and submit a pull request.
+
+📜 License
+
+This project is licensed under the MIT License.
